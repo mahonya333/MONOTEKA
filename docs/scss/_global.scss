@@ -12,10 +12,9 @@ body {
     min-width: $min-width;
     margin: 0;
     padding: 0;
-
-    font-family: $Rub-regular;/* Подключаем по ситуации шрифт с дизайна */
-/*     color: $color-main; */ /* Подключаем по ситуации основной цвет с дизайна */
-    background-color: $color-black;
+    font-family: $YanoneKaffeesatz-Regular;
+    color: $color-black; 
+    background-color: $color-white;
 }
 body {
     line-height: 1.5;
@@ -90,7 +89,6 @@ input[placeholder] {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-
     @include breakpoint($mobile-width) {
    
     }
@@ -110,7 +108,7 @@ input[placeholder] {
 .site-wrapper {
     display: flex;
     flex-direction: column;
-/*     font-family: $pn-regular; */  /* Подключаем по ситуации шрифт с дизайна */
+    font-family: $YanoneKaffeesatz-Regular; 
     font-size: 1.6rem;
     min-height: 100vh;
 }
@@ -130,4 +128,7 @@ input[placeholder] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.btn{
+    @include button-reset;
 }

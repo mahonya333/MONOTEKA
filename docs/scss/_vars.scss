@@ -1,17 +1,20 @@
 $color-black: #000000;
 $color-white: #ffffff;
+$color-orange: #ef7f1a;
 
 
 
 
 $fonts-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 "Segoe UI Symbol";
-$Rub-regular: "Rubik", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
-$roboto-regular: "Roboto", $fonts-default;/* Подключаем по ситуации шрифт с дизайна */
+$YanoneKaffeesatz-Light: "YanoneKaffeesatz-Light";
+$YanoneKaffeesatz-Regular: "YanoneKaffeesatz-Regular";
+$YanoneKaffeesatz-Bold: "YanoneKaffeesatz-Bold";
+$YanoneKaffeesatz-Thin: "YanoneKaffeesatz-Thin";
 
 
 
-$container-width: 124rem;
+$container-width: 170rem;
 $min-width: 32rem;
 
 
